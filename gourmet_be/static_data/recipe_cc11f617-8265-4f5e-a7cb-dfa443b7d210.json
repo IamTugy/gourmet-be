@@ -1,0 +1,161 @@
+{
+    "id": "cc11f617-8265-4f5e-a7cb-dfa443b7d210",
+    "creator_id": "bdd1522f-92e1-4304-be47-92acfd3030a5",
+    "language": "hebrew",
+    "title": "בצק קרואסון ודייניש",
+    "description": "",
+    "image_url": "https://iambaker.net/wp-content/uploads/2023/10/croissant-dough.jpg",
+    "thumb_image_url": "https://cdn.shopify.com/s/files/1/0382/1836/7107/files/lock-in-butter-lamination_101.jpg?v=1708613263",
+    "steps": [
+      [
+        {
+          "type": "title",
+          "size": "lg",
+          "bold": false,
+          "text": "הכנת הבצק"
+        },
+        {
+          "type": "list",
+          "list_type": "bulleted",
+          "header": null,
+          "items": [
+            "בעזרת מיקסר מצוייד בוו לישה, מערבבים את כל החומרים היבשים, ומוסיפים בזרם את החומרים הנוזליים.",
+            "לאחר שהבצק התאחד, מכסים את הכערה בניילון נצמד ומתפיחים ל30 דק בחוץ ולאחר מכן במקרר לשעתיים לפחות."
+          ]
+        }
+      ],
+      [
+        {
+          "type": "title",
+          "size": "lg",
+          "bold": false,
+          "text": "קיפול  ראשוני"
+        },
+        {
+          "type": "list",
+          "list_type": "bulleted",
+          "header": null,
+          "items": [
+            "מרדדים את החמאה למלבן בעובי 1/2 ס״מ. מחלקים את החמאה לשני חלקים.",
+            "מרדדים את החמאה למלבן רחב ב-1/3 מהחמאה, מניחים מחצית מהחמאה על שני שליש הבצק ומקפלים את הבצק מעליה, ממש כמו קיפול בצק עלים.",
+            "מרדדים שוב ומניחים את מלבן החמאה השני בדיוק באותה צורה. מכסים ומקררים לפחות ל-30 דקות."
+          ]
+        }
+      ],
+      [
+        {
+          "type": "title",
+          "size": "lg",
+          "bold": false,
+          "text": "קיפול שני"
+        },
+        {
+          "type": "text",
+          "size": "md",
+          "bold": false,
+          "text": "מרדדים שוב ומבצעים עוד פעמיים קיפול של בודד, מכסים ומקררים לפחות ל-30 דקות בין קיפול לקיפול."
+        }
+      ],
+      [
+        {
+          "type": "title",
+          "size": "lg",
+          "bold": false,
+          "text": "קיפול שלישי"
+        }
+      ],
+      [
+        {
+          "type": "title",
+          "size": "lg",
+          "bold": false,
+          "text": "סיום"
+        },
+        {
+          "type": "text",
+          "size": "md",
+          "bold": false,
+          "text": "הבצק מוכן לעבודה מיד, אך רצוי לצנן אותו לילה שלם לפני העבודה."
+        }
+      ]
+    ],
+    "ingredients": [
+      {
+        "type": "list",
+        "list_type": "checklist",
+        "header": "חומרים יבשים",
+        "items": [
+          {
+            "text": "קמח לחם",
+            "quantity": 400,
+            "unit": "גרם",
+            "note": null
+          },
+          {
+            "text": "סוכר",
+            "quantity": 10,
+            "unit": "גרם",
+            "note": null
+          },
+          {
+            "text": "אבקת חלב",
+            "quantity": 15,
+            "unit": "גרם",
+            "note": null
+          },
+          {
+            "text": "מלח",
+            "quantity": 6,
+            "unit": "גרם",
+            "note": null
+          },
+          {
+            "text": "שמרים יבשים",
+            "quantity": 10,
+            "unit": "גרם",
+            "note": null
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "list_type": "checklist",
+        "header": "נוזלים",
+        "items": [
+          {
+            "text": "חמאה מומסת",
+            "quantity": 30,
+            "unit": "גרם",
+            "note": null
+          },
+          {
+            "text": "חלב",
+            "quantity": 250,
+            "unit": "גרם",
+            "note": null
+          },
+          {
+            "text": "חומץ",
+            "quantity": 10,
+            "unit": "גרם",
+            "note": null
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "list_type": "checklist",
+        "header": "לקיפול",
+        "items": [
+          {
+            "text": "חמאה",
+            "quantity": 300,
+            "unit": "גרם",
+            "note": "יש לחתוך 3 חביולות של 100 גרם ל6 מלבנים של 50 גרם כל אחד"
+          }
+        ]
+      }
+    ],
+    "rating": 0,
+    "likes": 0
+}

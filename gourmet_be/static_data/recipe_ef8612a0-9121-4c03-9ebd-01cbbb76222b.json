@@ -1,0 +1,121 @@
+{
+    "id": "ef8612a0-9121-4c03-9ebd-01cbbb76222b",
+    "creator_id": "18373606-b6ad-44c2-883c-6ff03f6bd999",
+    "language": "english",
+    "title": "Brioche Dough",
+    "description": "",
+    "image_url": "https://www.fifteenspatulas.com/wp-content/uploads/2011/02/Homemade-Brioche-Fifteen-Spatulas-15.jpg",
+    "thumb_image_url": "https://hips.hearstapps.com/hmg-prod/images/delish-190829-brioche-horizontal-0230-landscape-pf-1567541194.gif?crop=0.8891228070175439xw:1xh;center,top&resize=1200:*",
+    "steps": [
+        [
+        {
+            "type": "title",
+            "size": "lg",
+            "bold": true,
+            "text": "Combine the ingredients"
+        },
+        {
+            "type": "list",
+            "list_type": "bulleted",
+            "header": null,
+            "items": [
+            "Using a stand mixer with a dough hook, combine the dry ingredients.",
+            "Add the wet ingredients in a stream and mix until the dough comes together.",
+            "Add the butter cube by cube and mix until the dough is smooth and elastic about 6 minutes. The dough should gather around the hook.",
+            "Store the dough inside of a big container, and let it rise for a full night in the fridge or in the freezer. You can store it and use it later in another day aswell."
+            ]
+        }
+        ],
+        [
+        {
+            "type": "title",
+            "size": "lg",
+            "bold": true,
+            "text": "Bake the brioche"
+        },
+        {
+            "type": "list",
+            "list_type": "bulleted",
+            "header": null,
+            "items": [
+            "Shape the dough and let it rise to double its size.",
+            "Let the dough rise for 2 hours.",
+            "Bake the brioche in a preheated oven at 180 degrees for about 15-25 minutes, based on the size of the brioche."
+            ]
+        }
+        ]
+    ],
+    "ingredients": [
+        {
+        "type": "list",
+        "list_type": "checklist",
+        "header": "Dry Ingredients",
+        "items": [
+            {
+            "text": "Bread flour",
+            "quantity": 400,
+            "unit": "grams",
+            "note": null
+            },
+            {
+            "text": "Dry yeast",
+            "quantity": 13,
+            "unit": "grams",
+            "note": null
+            },
+            {
+            "text": "Shugar",
+            "quantity": 35,
+            "unit": "grams",
+            "note": null
+            },
+            {
+            "text": "Salt",
+            "quantity": 7,
+            "unit": "grams",
+            "note": null
+            }
+        ]
+        },
+        {
+        "type": "list",
+        "list_type": "checklist",
+        "header": "Wet Ingredients",
+        "items": [
+            {
+            "text": "Eggs",
+            "quantity": 100,
+            "unit": "grams",
+            "note": null
+            },
+            {
+            "text": "Milk",
+            "quantity": 150,
+            "unit": "grams",
+            "note": null
+            },
+            {
+            "text": "Butter",
+            "quantity": 200,
+            "unit": "grams",
+            "note": null
+            }
+        ]
+        },
+        {
+        "type": "list",
+        "list_type": "checklist",
+        "header": "On the side",
+        "items": [
+            {
+            "text": "Butter",
+            "quantity": 200,
+            "unit": "grams",
+            "note": "sliced as cubes"
+            }
+        ]
+        }
+    ],
+    "rating": 0,
+    "likes": 0
+}
