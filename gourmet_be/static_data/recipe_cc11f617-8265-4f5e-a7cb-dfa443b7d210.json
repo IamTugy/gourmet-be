@@ -61,14 +61,6 @@
           "type": "title",
           "size": "lg",
           "bold": false,
-          "text": "קיפול שלישי"
-        }
-      ],
-      [
-        {
-          "type": "title",
-          "size": "lg",
-          "bold": false,
           "text": "סיום"
         },
         {

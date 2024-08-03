@@ -1,4 +1,5 @@
 from enum import StrEnum
+from typing import Literal
 import uuid
 from pydantic import BaseModel
 
@@ -28,7 +29,7 @@ class Block(BaseModel):
 
 
 class ImageBlock(Block):
-    type: BlockType = BlockType.IMAGE
+    type: Literal[BlockType.IMAGE]
     url: str
 
     class Config:
@@ -36,7 +37,7 @@ class ImageBlock(Block):
 
 
 class TitleBlock(Block):
-    type: BlockType = BlockType.TITLE
+    type: Literal[BlockType.TITLE]
     size: TextSize = TextSize.LARGE
     bold: bool = False
     text: str
@@ -46,7 +47,7 @@ class TitleBlock(Block):
 
 
 class SubtitleBlock(Block):
-    type: BlockType = BlockType.SUBTITLE
+    type: Literal[BlockType.SUBTITLE]
     size: TextSize = TextSize.MEDIUM
     bold: bool = False
     text: str
@@ -56,7 +57,7 @@ class SubtitleBlock(Block):
 
 
 class TextBlock(Block):
-    type: BlockType = BlockType.TEXT
+    type: Literal[BlockType.TEXT]
     size: TextSize = TextSize.MEDIUM
     bold: bool = False
     text: str
@@ -82,7 +83,7 @@ class IngredientListItem(BaseModel):
 
 
 class ListBlock(Block):
-    type: BlockType = BlockType.LIST
+    type: Literal[BlockType.LIST]
     list_type: ListType
     header: str | None = None
     items: list[str | IngredientListItem]
@@ -92,7 +93,7 @@ class ListBlock(Block):
 
 
 class IndentedBlock(Block):
-    type: BlockType = BlockType.INDENTED_BLOCK
+    type: Literal[BlockType.INDENTED_BLOCK]
     block: Block
 
     class Config:
@@ -113,7 +114,6 @@ class Recipe(BaseModel):
             | TitleBlock
             | SubtitleBlock
             | TextBlock
-            | IngredientListItem
             | ListBlock
             | IndentedBlock
         ]
