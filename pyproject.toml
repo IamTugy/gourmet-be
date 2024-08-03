@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gourmet-be"
+version = "0.1.0"
+description = "gourmet ai backend"
+authors = ["Michael Tugendhaft <michael.t@sealsecurity.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
