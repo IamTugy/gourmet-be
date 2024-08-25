@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+
 from .endpoints.recipes import router as recipes_router
 
 app = FastAPI()

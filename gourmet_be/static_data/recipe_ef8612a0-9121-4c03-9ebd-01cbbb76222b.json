@@ -8,112 +8,112 @@
     "thumb_image_url": "https://hips.hearstapps.com/hmg-prod/images/delish-190829-brioche-horizontal-0230-landscape-pf-1567541194.gif?crop=0.8891228070175439xw:1xh;center,top&resize=1200:*",
     "steps": [
         [
-        {
-            "type": "title",
-            "size": "lg",
-            "bold": true,
-            "text": "Combine the ingredients"
-        },
-        {
-            "type": "list",
-            "list_type": "bulleted",
-            "header": null,
-            "items": [
-            "Using a stand mixer with a dough hook, combine the dry ingredients.",
-            "Add the wet ingredients in a stream and mix until the dough comes together.",
-            "Add the butter cube by cube and mix until the dough is smooth and elastic about 6 minutes. The dough should gather around the hook.",
-            "Store the dough inside of a big container, and let it rise for a full night in the fridge or in the freezer. You can store it and use it later in another day aswell."
-            ]
-        }
+            {
+                "type": "title",
+                "size": "lg",
+                "bold": true,
+                "text": "Combine the ingredients"
+            },
+            {
+                "type": "list",
+                "list_type": "bulleted",
+                "header": null,
+                "items": [
+                    "Using a stand mixer with a dough hook, combine the dry ingredients.",
+                    "Add the wet ingredients in a stream and mix until the dough comes together.",
+                    "Add the butter cube by cube and mix until the dough is smooth and elastic about 6 minutes. The dough should gather around the hook.",
+                    "Store the dough inside of a big container, and let it rise for a full night in the fridge or in the freezer. You can store it and use it later in another day aswell."
+                ]
+            }
         ],
         [
-        {
-            "type": "title",
-            "size": "lg",
-            "bold": true,
-            "text": "Bake the brioche"
-        },
-        {
-            "type": "list",
-            "list_type": "bulleted",
-            "header": null,
-            "items": [
-            "Shape the dough and let it rise to double its size.",
-            "Let the dough rise for 2 hours.",
-            "Bake the brioche in a preheated oven at 180 degrees for about 15-25 minutes, based on the size of the brioche."
-            ]
-        }
+            {
+                "type": "title",
+                "size": "lg",
+                "bold": true,
+                "text": "Bake the brioche"
+            },
+            {
+                "type": "list",
+                "list_type": "bulleted",
+                "header": null,
+                "items": [
+                    "Shape the dough and let it rise to double its size.",
+                    "Let the dough rise for 2 hours.",
+                    "Bake the brioche in a preheated oven at 180 degrees for about 15-25 minutes, based on the size of the brioche."
+                ]
+            }
         ]
     ],
     "ingredients": [
         {
-        "type": "list",
-        "list_type": "checklist",
-        "header": "Dry Ingredients",
-        "items": [
-            {
-            "text": "Bread flour",
-            "quantity": 400,
-            "unit": "grams",
-            "note": null
-            },
-            {
-            "text": "Dry yeast",
-            "quantity": 13,
-            "unit": "grams",
-            "note": null
-            },
-            {
-            "text": "Shugar",
-            "quantity": 35,
-            "unit": "grams",
-            "note": null
-            },
-            {
-            "text": "Salt",
-            "quantity": 7,
-            "unit": "grams",
-            "note": null
-            }
-        ]
+            "type": "list",
+            "list_type": "checklist",
+            "header": "Dry Ingredients",
+            "items": [
+                {
+                    "text": "Bread flour",
+                    "quantity": 400,
+                    "unit": "gram",
+                    "note": null
+                },
+                {
+                    "text": "Dry yeast",
+                    "quantity": 13,
+                    "unit": "gram",
+                    "note": null
+                },
+                {
+                    "text": "Shugar",
+                    "quantity": 35,
+                    "unit": "gram",
+                    "note": null
+                },
+                {
+                    "text": "Salt",
+                    "quantity": 7,
+                    "unit": "gram",
+                    "note": null
+                }
+            ]
         },
         {
-        "type": "list",
-        "list_type": "checklist",
-        "header": "Wet Ingredients",
-        "items": [
-            {
-            "text": "Eggs",
-            "quantity": 100,
-            "unit": "grams",
-            "note": null
-            },
-            {
-            "text": "Milk",
-            "quantity": 150,
-            "unit": "grams",
-            "note": null
-            },
-            {
-            "text": "Butter",
-            "quantity": 200,
-            "unit": "grams",
-            "note": null
-            }
-        ]
+            "type": "list",
+            "list_type": "checklist",
+            "header": "Wet Ingredients",
+            "items": [
+                {
+                    "text": "Eggs",
+                    "quantity": 100,
+                    "unit": "gram",
+                    "note": null
+                },
+                {
+                    "text": "Milk",
+                    "quantity": 150,
+                    "unit": "gram",
+                    "note": null
+                },
+                {
+                    "text": "Butter",
+                    "quantity": 200,
+                    "unit": "gram",
+                    "note": null
+                }
+            ]
         },
         {
-        "type": "list",
-        "list_type": "checklist",
-        "header": "On the side",
-        "items": [
-            {
-            "text": "Butter",
-            "quantity": 200,
-            "unit": "grams",
-            "note": "sliced as cubes"
-            }
-        ]
+            "type": "list",
+            "list_type": "checklist",
+            "header": "On the side",
+            "items": [
+                {
+                    "text": "Butter",
+                    "quantity": 200,
+                    "unit": "gram",
+                    "note": "sliced as cubes"
+                }
+            ]
         }
     ],
     "rating": 0,

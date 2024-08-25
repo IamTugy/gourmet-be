@@ -1,7 +1,8 @@
-from enum import StrEnum
-from typing import Literal
 import uuid
-from pydantic import BaseModel
+from enum import StrEnum
+from typing import Annotated, Literal
+
+from pydantic import BaseModel, Discriminator
 
 
 class TextSize(StrEnum):
@@ -100,6 +101,17 @@ class IndentedBlock(Block):
         orm_mode = True
 
 
+SupportedBlocks = Annotated[
+    ImageBlock
+    | TitleBlock
+    | SubtitleBlock
+    | TextBlock
+    | ListBlock
+    | IndentedBlock,
+    Discriminator("type"),
+]
+
+
 class Recipe(BaseModel):
     id: uuid.UUID
     creator_id: uuid.UUID
@@ -108,16 +120,7 @@ class Recipe(BaseModel):
     description: str
     image_url: str
     thumb_image_url: str
-    steps: list[
-        list[
-            ImageBlock
-            | TitleBlock
-            | SubtitleBlock
-            | TextBlock
-            | ListBlock
-            | IndentedBlock
-        ]
-    ]
+    steps: list[list[SupportedBlocks]]
     ingredients: list[IndentedBlock | ListBlock | TitleBlock]
     rating: float = 0
     likes: int = 0

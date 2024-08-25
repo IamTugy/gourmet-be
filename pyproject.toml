@@ -10,7 +10,12 @@ python = "^3.12"
 fastapi = {extras = ["standard"], version = "^0.112.0"}
 fastapi-pagination = "^0.12.26"
 pydantic = "^2.8.2"
+peewee = "^3.17.6"
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]

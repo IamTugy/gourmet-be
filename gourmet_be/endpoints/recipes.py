@@ -2,9 +2,15 @@ import uuid
 
 from fastapi import APIRouter, Response
 from pydantic import TypeAdapter
-from gourmet_be.models.recipes import Recipe, IngredientListItem, ListBlock, TextBlock, TitleBlock
-from gourmet_be.static_data.fetcher import fetch_recipe
 
+from gourmet_be.models.recipes import (
+    IngredientListItem,
+    ListBlock,
+    Recipe,
+    TextBlock,
+    TitleBlock,
+)
+from gourmet_be.static_data.fetcher import fetch_recipe
 
 router = APIRouter(
     prefix="/recipes",
